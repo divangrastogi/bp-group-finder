@@ -1,0 +1,106 @@
+/**
+ * BP Group Finder Admin Styles
+ *
+ * @package BP_Group_Finder
+ * @since 1.0.0
+ */
+
+/* Metabox Styles */
+.bpgf-metabox {
+    margin: 1rem 0;
+}
+
+.bpgf-tags-input-wrapper {
+    margin-bottom: 1rem;
+}
+
+.bpgf-tags-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bpgf-current-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    min-height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.bpgf-tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background: #007cba;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.bpgf-tag-chip .bpgf-remove-tag {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.bpgf-tag-chip .bpgf-remove-tag:hover {
+    color: #ccc;
+}
+
+.bpgf-popular-tags {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.bpgf-popular-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.bpgf-add-popular-tag {
+    padding: 0.25rem 0.5rem;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bpgf-add-popular-tag:hover {
+    background: #e0e0e0;
+}
+
+/* Settings Page Styles */
+.wrap .form-table th {
+    width: 200px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .bpgf-current-tags {
+        padding: 0.25rem;
+    }
+
+    .bpgf-tag-chip {
+        font-size: 11px;
+        padding: 0.2rem 0.4rem;
+    }
+}
